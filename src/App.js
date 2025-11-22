@@ -14,7 +14,7 @@ import HistorySidebar from "./components/HistorySidebar";
 // Style imports
 import "./styles/tailwind.css";
 
-const API_BASE_URL = "http://localhost:5000/api";
+const API_BASE_URL = "https://skillwise-solutions-backend.onrender.com/api";
 
 function App() {
   const [products, setProducts] = useState([]);
